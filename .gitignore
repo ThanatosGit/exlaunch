@@ -5,6 +5,7 @@ out/*
 .venv/
 *.egg-info
 deploy
+version.py
 
 *.elf
 *.nso

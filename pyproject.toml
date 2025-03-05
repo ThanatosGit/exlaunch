@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools >= 61.0"]
+requires = ["setuptools >= 61.0", "setuptools_scm[toml]>=3.4.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -16,3 +16,7 @@ classifiers = [
 dynamic = ["version"]
 requires-python = ">= 3.10"
 readme = "README.md"
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+write_to = "src/exlaunch/version.py"
