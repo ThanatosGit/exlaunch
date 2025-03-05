@@ -1,7 +1,10 @@
 .vscode/*
 build/*
+dist/*
 out/*
-deploy/*
+.venv/
+*.egg-info
+deploy
 
 *.elf
 *.nso
